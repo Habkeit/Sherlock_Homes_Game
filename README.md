@@ -1,5 +1,29 @@
 # Sherlock_Homes_Game
 
+## 🧩 Cách cài đặt & chạy game
+
+### 1️⃣ Tải mã nguồn từ GitHub
+
+### 2️⃣ Giải nén dự án
+- Sau khi tải về, bạn sẽ có một file như:
+  - icon  - Thư mục chứa biểu tượng của game
+  - Install - Trình cài đặt hoặc file cấu hình khởi tạo
+  - libgcc_s_dw2-1.dll - Thư viện hệ thống cần cho chương trình chạy
+  - libstdc++-6.dll - Thư viện C++ tiêu chuẩn (dùng cho g++)
+  - README - Tệp hướng dẫn đi kèm game
+  - Sherlock - File thực thi của game (biểu tượng raylib)
+  - START - File batch (.bat) để khởi động game
+💡 **Lưu ý:**
+- Không xóa các file `.dll` – đây là thư viện cần thiết để chương trình chạy.  
+- File **`Sherlock`** là game chính (có thể mở trực tiếp).  
+- Nên chạy qua **`START.bat`** để đảm bảo môi trường được thiết lập chính xác.
+
+### 3️⃣ Chạy chương trình (Windows)
+1. Mở thư mục đã giải nén.  
+2. **Double-click vào file:**
+
+---
+
 ## 🧭 Bản đồ mê cung
 
 - Mê cung là **một lưới (nr × nc)** gồm các phần tử (`MapElement`):
